@@ -1,0 +1,16 @@
+name: Parser
+version: 1.0
+description: Parses active world's data.
+author: CloudGamer360
+load: POSTWORLD
+main: net.tentoria.parser.Main
+commands:
+  beginforceload:
+    description: Force load all the chunks.
+    usage: /beginforceload
+  stopforceload:
+    description: Stops force loading all the chunks.
+    usage: /stopforceload
+  parsemap:
+    description: Begins parsing the map
+    usage: /parsemap
